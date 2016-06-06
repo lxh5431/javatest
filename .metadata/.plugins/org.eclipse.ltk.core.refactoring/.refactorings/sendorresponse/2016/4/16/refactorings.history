@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;LengthFramer.java&apos; to &apos;sendorresponse/src/testframer&apos;&#x0D;&#x0A;- Original project: &apos;sendorresponse&apos;&#x0D;&#x0A;- Destination element: &apos;sendorresponse/src/testframer&apos;&#x0D;&#x0A;- Original element: &apos;sendorresponse.LengthFramer.java&apos;" description="Copy compilation unit" destination="/src&lt;testframer" element1="/src&lt;sendorresponse{LengthFramer.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1460299336973" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC
+         "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+         "http://struts.apache.org/dtds/struts-config-2.0.dtd">
+<struts-config>
+	<form-beans>
+		<form-bean name="judgeActionForm" type="ch2.JudgeActionForm" />
+		<form-bean name="CreateNumberActionForm" type="ch2.CreateNumberActionForm" />
+	</form-beans>
+	<global-forwards>
+		<forward name="guess" path="/guess" />
+	</global-forwards>
+
+	<action-mapping>
+		<action name="judgeActionForm" path="/judgeAction" scope="session"
+			type="ch2.JudgeAction" />
+		<action name="CreateNumberActionForm" path="/createNumberAction"
+			scope="session" type="ch2.CreateNumberActionForm" />
+	</action-mapping>
+</struts-config>

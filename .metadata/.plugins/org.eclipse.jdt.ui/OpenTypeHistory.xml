@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=HibernateDemo/C:\/Java\/jre1.8.0_77\/lib\/rt.jar&lt;org.omg.PortableInterceptor(USER_EXCEPTION.class[USER_EXCEPTION" modifiers="1537" timestamp="1459231601859"/>
+<typeInfo handle="=HibernateDemo/src&lt;org.hibernate.dao{UserDAOImpl.java[UserDAOImpl" modifiers="1" timestamp="1461853114290"/>
+<typeInfo handle="=jFindTest/C:\/Users\/lxh\/Downloads\/jfinal-2.2-all\/jfinal-2.2-bin.jar&lt;com.jfinal.server(JFinalClassLoader.class[JFinalClassLoader" modifiers="32" timestamp="1453135600000"/>
+<typeInfo handle="=jFindTest/C:\/Users\/lxh\/Downloads\/jfinal-2.2-all\/jfinal-2.2-bin.jar&lt;com.jfinal.core(JFinal.class[JFinal" modifiers="49" timestamp="1453135600000"/>
+<typeInfo handle="=jFindTest/C:\/Users\/lxh\/Downloads\/jfinal-2.2-all\/jfinal-2.2-bin-with-src.jar&lt;com.jfinal.config(JFinalConfig.class[JFinalConfig" modifiers="1057" timestamp="1453135606000"/>
+</typeInfoHistroy>

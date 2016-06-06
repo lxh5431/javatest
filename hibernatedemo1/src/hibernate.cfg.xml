@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration
+          PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN"
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.driver_class"><!--指定连接数据库用的驱动-->
+      com.mysql.jdbc.Driver
+    </property>
+    <property name="connection.url"><!--指定连接数据库的路径-->
+      jdbc:mysql://localhost:3306/db_database02
+    </property>
+    <property name="connection.username">root</property><!--指定连接数据库的用户名-->
+    <property name="connection.password">123456</property><!--指定连接数据库的密码-->
+<!--指定数据库使用的SQL方言-->
+    <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+<!--指定一个Transaction实例工厂类-->
+    <property name="hibernate.transaction.factory_class">
+       org.hibernate.transaction.JDBCTransactionFactory
+</property>
+<!--当show_sql属性为true时表示在程序运行时在控制台输出SQL语句，默认为false，建议在调试程序时设为true，发布程序之前再改为false,因为输出SQL语句会影响程序的运行速度-->
+    <property name="show_sql">true</property>
+    <!--指定是否按照标准格式在控制台上输出SQL语句-->
+    <property name="format_sql">true</property>
+    <!--指定是否在SQL语句中输出便于调试的注释信息-->
+    <property name="use_sql_comments">true</property>
+    <mapping resource="UserForm.hbm.xml"/><!--指定持久化类映射文件-->
+  </session-factory>
+</hibernate-configuration>
